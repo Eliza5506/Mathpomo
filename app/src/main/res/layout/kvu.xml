@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите a"
+        android:textSize="70dp" />
+
+    <EditText
+        android:id="@+id/it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите b"
+        android:textSize="70dp" />
+
+    <EditText
+        android:id="@+id/ut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите c"
+        android:textSize="70dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="pp"
+        android:id="@+id/kk"
+android:text="Найти корни"
+        android:textSize="50dp"
+
+        />
+</LinearLayout>
