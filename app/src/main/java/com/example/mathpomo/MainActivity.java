@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
     Intent i = new Intent (MainActivity.this, kalk.class);
     startActivity(i);
     }
+    public void kvu(View view) {
+        Intent i = new Intent (MainActivity.this, kvu.class);
+        startActivity(i);
+    }
 }

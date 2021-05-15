@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Привет, я твой помощник"
-        android:textSize="50dp"
+        android:textSize="30dp"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -23,44 +23,59 @@
         android:onClick="calc"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:textSize="50dp"
+        android:textSize="30dp"
 android:textColor="@color/colorPrimaryDark"
         android:text="Калькулятор" />
     <Button
         android:id="@+id/сс"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:textColor="@color/colorPrimaryDark"
         android:text="Системы счисления" />
     <Button
         android:id="@+id/nr"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:textColor="@color/colorPrimaryDark"
         android:text="Решение неравенств" />
     <Button
         android:id="@+id/ur"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:textSize="50dp"
+        android:textSize="30dp"
         android:textColor="@color/colorPrimaryDark"
         android:text="Решение уравнений" />
     <Button
-        android:id="@+id/kv"
+        android:id="@+id/kvu"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:textSize="50dp"
+        android:textSize="21dp"
+        android:onClick="kvu"
         android:textColor="@color/colorPrimaryDark"
         android:text="Решение квадратных уравнений" />
     <Button
         android:id="@+id/fo"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        android:textSize="50dp"
+        android:textSize="25dp"
         android:textColor="@color/colorPrimaryDark"
-        android:text="Математические формулы" />
+        android:text="Формулы по математике" />
+    <Button
+        android:id="@+id/ff"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="формулы по физике" />
+    <Button
+        android:id="@+id/fi"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="формулы по информатике" />
 
 
 
