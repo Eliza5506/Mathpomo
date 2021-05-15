@@ -27,7 +27,7 @@ public class kvu extends MainActivity {
         tv = findViewById(R.id.tv);
         D=b*b-4*a*c;
       //  if (view.getId() == R.id.kk)
-          et.append("D="+D);
+          tv.append("D="+D);
         if(D>0) {
             x1= ((-b)+Math.sqrt(D))/(2*a);
             x2= ((-b)-Math.sqrt(D))/(2*a);
