@@ -8,28 +8,29 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите a"
-        android:textSize="70dp" />
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/it"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите b"
-        android:textSize="70dp" />
+        android:textSize="30dp" />
 
     <EditText
         android:id="@+id/ut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Введите c"
-        android:textSize="70dp" />
+        android:textSize="30dp" />
+
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="pp"
         android:id="@+id/kk"
-android:text="Найти корни"
-        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:onClick="pp"
+        android:text="Найти корни"
+        android:textSize="35dp"
 
         />
 
@@ -37,6 +38,6 @@ android:text="Найти корни"
         android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:text="TextView" />
+        android:textSize="20dp" />
 
 </LinearLayout>

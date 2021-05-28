@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Mathpomo</string>
+    <string name="d_0"><![CDATA[Если D < 0:]]></string>
 </resources>

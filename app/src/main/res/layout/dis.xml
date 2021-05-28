@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ax² + bx + c = 0"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Формула дискриминанта:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D = b² - 4ac"
+       android:textColor="@color/colorPrimary"
+        android:textSize="40dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Если D > 0:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X1 = (-b + √D) / 2a"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X2 = (-b - √D) / 2a"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Если D = 0:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X = -b / 2a"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"  />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     android:text="@string/d_0"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Уравнение не имеет корней"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30dp" />
+</LinearLayout>

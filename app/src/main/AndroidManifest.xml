@@ -18,6 +18,44 @@
         </activity>
         <activity android:name=".kalk" />.
         <activity android:name=".kvu" />.
+        <activity android:name=".frmat" />.
+        <activity android:name=".sis" />.
+        <activity android:name=".alg" />.
+        <activity android:name=".fkku" />.
+        <activity android:name=".dis" />.
+        <activity android:name=".tvi" />.
+        <activity android:name=".sc" />.
+        <activity android:name=".pdn" />.
+        <activity android:name=".fsu" />.
+        <activity android:name=".fuu" />.
+        <activity android:name=".skk" />.
+        <activity android:name=".mn" />.
+        <activity android:name=".sm" />.
+        <activity android:name=".funk" />.
+        <activity android:name=".lin" />.
+        <activity android:name=".mod" />.
+        <activity android:name=".vida" />.
+        <activity android:name=".kva" />.
+        <activity android:name=".fpp" />.
+        <activity android:name=".fop" />.
+        <activity android:name=".geom" />.
+        <activity android:name=".teor" />.
+        <activity android:name=".fales" />.
+        <activity android:name=".menel" />.
+        <activity android:name=".ptol" />.
+        <activity android:name=".pifag" />.
+        <activity android:name=".chev" />.
+        <activity android:name=".tre" />.
+        <activity android:name=".pro" />.
+        <activity android:name=".prtr" />.
+        <activity android:name=".ravn" />.
+        <activity android:name=".vpis" />.
+        <activity android:name=".kvadrat" />.
+        <activity android:name=".para" />.
+        <activity android:name=".prur" />.
+        <activity android:name=".romb" />.
+        <activity android:name=".trap" />.
+        <activity android:name=".okr" />.
     </application>
 
 </manifest>

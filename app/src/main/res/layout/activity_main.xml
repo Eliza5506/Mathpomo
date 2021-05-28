@@ -22,61 +22,28 @@
         android:id="@+id/kl"
         android:onClick="calc"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
+        android:layout_height="wrap_content"
         android:textSize="30dp"
-android:textColor="@color/colorPrimaryDark"
         android:text="Калькулятор" />
     <Button
-        android:id="@+id/сс"
+        android:id="@+id/sis"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="30dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Системы счисления" />
-    <Button
-        android:id="@+id/nr"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="30dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Решение неравенств" />
-    <Button
-        android:id="@+id/ur"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="30dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="Решение уравнений" />
+        android:layout_height="wrap_content"
+        android:onClick="sis"
+        android:text="Системы счисления"
+        android:textSize="30dp" />
     <Button
         android:id="@+id/kvu"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="21dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
         android:onClick="kvu"
-        android:textColor="@color/colorPrimaryDark"
         android:text="Решение квадратных уравнений" />
     <Button
         android:id="@+id/fo"
         android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="25dp"
-        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:onClick="frmat"
         android:text="Формулы по математике" />
-    <Button
-        android:id="@+id/ff"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="25dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="формулы по физике" />
-    <Button
-        android:id="@+id/fi"
-        android:layout_width="match_parent"
-        android:layout_height="88dp"
-        android:textSize="25dp"
-        android:textColor="@color/colorPrimaryDark"
-        android:text="формулы по информатике" />
-
-
-
 </LinearLayout>

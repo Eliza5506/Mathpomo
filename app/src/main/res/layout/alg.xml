@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/n7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Признаки делимости натуральных чисел"
+        android:onClick="pdn"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/n1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Формулы сокращенного умножения"
+        android:onClick="fsu"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/n2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="fkku"
+        android:text="Формулы корней квадратного уравнения"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/n9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Свойства умножения"
+        android:onClick="fuu"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/n3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sc"
+        android:text="Свойства степени"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/n4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Свойства квадратного корня"
+        android:onClick="skk"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/n6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Свойства модуля"
+        android:onClick="sm"
+        android:textSize="15dp" />
+    <Button
+        android:id="@+id/n10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Множества"
+        android:onClick="mn"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/n11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funk"
+        android:text="Функции"
+        android:textSize="15dp" />
+</LinearLayout>

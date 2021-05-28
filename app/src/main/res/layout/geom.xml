@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Треугольник"
+        android:onClick="tre"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Квадрат"
+        android:onClick="kvadrat"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="para"
+        android:text="Параллелограмм"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="prur"
+        android:text="Прямоугольник"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="romb"
+        android:text="Ромб"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Трапеция"
+        android:onClick="trap"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="окружность"
+        android:onClick="okr"
+        android:textSize="35dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Теоремы"
+        android:onClick="teor"
+        android:textSize="35dp" />
+
+</LinearLayout>

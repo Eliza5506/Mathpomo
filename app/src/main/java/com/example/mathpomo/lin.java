@@ -1,0 +1,16 @@
+package com.example.mathpomo;
+
+import android.os.Bundle;
+import android.view.View;
+
+public class lin extends MainActivity{
+
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.lin);
+    }
+    public void lin(View view) {
+
+    }
+
+}
